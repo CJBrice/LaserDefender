@@ -9,7 +9,7 @@ public class WaveConfig : ScriptableObject {
     [SerializeField] GameObject pathPrefab;
     [SerializeField] float timeBetweenSpawns = 0.5f;
     [SerializeField] float spawnRandomFactor = 0.3f;
-    [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float moveSpeed = 10f;
     [SerializeField] int numberOfEnemies = 5;
 
     public GameObject GetEnemyPrefab() {return enemyPrefab;}

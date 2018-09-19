@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     //Config
-    [SerializeField] float moveSpeed = 20f;
+    [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
     [SerializeField] float laserSpeed = 15f;
     [SerializeField] GameObject laserPrefab;
